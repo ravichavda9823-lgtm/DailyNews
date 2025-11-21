@@ -50,59 +50,59 @@ function Home() {
           <div className="container">
             <div className="row">
               {/* sidebar-left */}
-              <div className="sidebar-widget widget_categories border-radius-10 bg-white mb-30">
+              <div className="sidebar-widget widget_categories border-radius-15 bg-white mb-30">
                 <div className="widget-header position-relative mb-15">
-                  <h5 className="widget-title">
-                    <strong>Categories</strong>
+                  <h5 className="widget-title px-4 pt-3">
+                    <strong className="">Categories</strong>
                   </h5>
                 </div>
-                <ul className="font-small text-muted">
+                <ul className="font-small text-muted px-4">
                   <li className="cat-item cat-item-3">
-                    <Link to={"/Newsbycategorie/business"}>Business</Link>
+                    <Link to={"/newsbycatgorie/business"}>Business</Link>
                   </li>
                   <li className="cat-item cat-item-4">
-                    <Link to={"/Newsbycategorie/crime"}>Crime</Link>
+                    <Link to={"/newsbycatgorie/crime"}>Crime</Link>
                   </li>
                   <li className="cat-item cat-item-5">
-                    <Link to={"/Newsbycategorie/domestic"}>Domestic</Link>
+                    <Link to={"/newsbycatgorie/domestic"}>Domestic</Link>
                   </li>
                   <li className="cat-item cat-item-6">
-                    <Link to={"/Newsbycategorie/education"}>Education</Link>
+                    <Link to={"/newsbycatgorie/education"}>Education</Link>
                   </li>
                   <li className="cat-item cat-item-7">
-                    <Link to={"/Newsbycategorie/entertainment"}>
+                    <Link to={"/newsbycatgorie/entertainment"}>
                       Entertainment
                     </Link>
                   </li>
                   <li className="cat-item cat-item-2">
-                    <Link to={"/Newsbycategorie/environment"}>Environment</Link>
+                    <Link to={"/newsbycatgorie/environment"}>Environment</Link>
                   </li>
                   <li className="cat-item cat-item-2">
-                    <Link to={"/Newsbycategorie/food"}>Food</Link>
+                    <Link to={"/newsbycatgorie/food"}>Food</Link>
                   </li>
                   <li className="cat-item cat-item-2">
-                    <Link to={"/Newsbycategorie/health"}>Health</Link>
+                    <Link to={"/newsbycatgorie/health"}>Health</Link>
                   </li>
                   <li className="cat-item cat-item-2">
-                    <Link to={"/Newsbycategorie/lifestyle"}>Lifestyle</Link>
+                    <Link to={"/newsbycatgorie/lifestyle"}>Lifestyle</Link>
                   </li>
                   <li className="cat-item cat-item-3">
-                    <Link to={"/Newsbycategorie/other"}>Other</Link>
+                    <Link to={"/newsbycatgorie/other"}>Other</Link>
                   </li>
                   <li className="cat-item cat-item-4">
-                    <Link to={"/Newsbycategorie/politics"}>Politics</Link>
+                    <Link to={"/newsbycatgorie/politics"}>Politics</Link>
                   </li>
                   <li className="cat-item cat-item-5">
-                    <Link to={"/Newsbycategorie/science"}>Science</Link>
+                    <Link to={"/newsbycatgorie/science"}>Science</Link>
                   </li>
                   <li className="cat-item cat-item-6">
-                    <Link to={"/Newsbycategorie/sports"}>Sports</Link>
+                    <Link to={"/newsbycatgorie/sports"}>Sports</Link>
                   </li>
                   <li className="cat-item cat-item-7">
-                    <Link to={"/Newsbycategorie/technology"}>Technology</Link>
+                    <Link to={"/newsbycatgorie/technology"}>Technology</Link>
                   </li>
                   <li className="cat-item cat-item-2">
-                    <Link to={"/Newsbycategorie/top"}>Top</Link>
+                    <Link to={"/newsbycatgorie/top"}>Top</Link>
                   </li>
                 </ul>
               </div>
