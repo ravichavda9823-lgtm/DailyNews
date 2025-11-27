@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom';
 
 function Newsbycatgorie() {
   let [news,setNews] = useState([]);
-
-   let categorie = useLocation().pathname.split("/")[2];
+  let categorie = useLocation().pathname.split("/")[2];
 
    useEffect(()=>{
     fetch("https://newsdata.io/api/1/latest?apikey=pub_195f60c971d84a978b2b9cc0f4a087c0&country=in&language=en,hi&category=business&timezone=Asia/Kolkata").then((response)=>{
@@ -22,7 +22,7 @@ function Newsbycatgorie() {
             {/* sidebar-left */}
             <div className="col-lg-2 col-md-3 primary-sidebar sticky-sidebar sidebar-left order-2 order-md-1">
               {/* Widget Categories */}
-                <Categories/>
+                <categorie/>
             </div>
             {/* main content */}
             <div className="col-lg-10

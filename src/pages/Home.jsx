@@ -142,7 +142,7 @@ function Home() {
                                       <div className="post-thumb d-flex mr-15 border-radius-15 img-hover-scale">
                                         <a
                                           className="color-white"
-                                          href="single.html"
+                                          href={value.link}
                                         >
                                           <img
                                             className="border-radius-15"
@@ -156,7 +156,7 @@ function Home() {
                                         <div className="entry-meta mb-15 mt-10">
                                           <a
                                             className="entry-meta meta-2"
-                                            href="category.html"
+                                            href={value.link}
                                           >
                                             <span className="post-in text-danger font-x-small">
                                               {value.category}
@@ -164,7 +164,7 @@ function Home() {
                                           </a>
                                         </div>
                                         <h5 className="post-title mb-15 text-limit-2-row">
-                                          <a href="single.html">
+                                          <a href={value.link}>
                                             {value.title}
                                           </a>
                                         </h5>
@@ -223,21 +223,21 @@ function Home() {
                                       <div className="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
                                         <a
                                           className="color-white"
-                                          href="single.html"
+                                          href={value.link}
                                         >
                                           <img src={value.image_url} alt />
                                         </a>
                                       </div>
                                       <div className="post-content media-body">
                                         <h6 className="post-title mb-10 text-limit-2-row">
-                                          <a href="single.html">
+                                          <a href={value.link}>
                                             {value.title}
                                           </a>
                                         </h6>
                                         <div className="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
                                           <span className="post-by">
                                             By{" "}
-                                            <a href="author.html">
+                                            <a href={value.link}>
                                               {value.source_name}
                                             </a>
                                           </span>
